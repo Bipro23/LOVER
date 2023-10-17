@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFB6C1; /* Romantic Pink */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF1493; /* Deep Pink */
+    padding: 20px;
+    text-align: center;
+}
+
+button#playButton {
+    background-color: #FFC0CB; /* Pink */
+    color: #FFF; /* White */
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button#playButton:hover {
+    background-color: #FF69B4; /* Hot Pink */
+}
+
+.main {
+    padding: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+.video {
+    position: relative;
+    background-color: #FFF; /* White */
+}
+
+.video video {
+    width: 100%; /* Make each video fill its container */
+    height: auto;
+}
